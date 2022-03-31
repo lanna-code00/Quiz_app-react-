@@ -70,6 +70,7 @@ const hansleSelected = (option) => {
   const submitAnswers = () => { 
     const answer = [...localstorage, answers];
     localStorage.setItem('answers', JSON.stringify(answer))
+    navigate('/result-page')
   }
 
   return (
