@@ -8,7 +8,7 @@ export default function Resullt() {
   return (
     <>
     {
-       flatten?.length < 0 ? <h2 className='mt-5 text-center text-white'>NO RESULTS FOR YOU YET, TRY TAKING A SURVEY FIRST!</h2> :
+       flatten?.length < 1 ? <h2 className='mt-5 text-center text-white'>NO RESULTS FOR YOU YET, TRY TAKING A SURVEY FIRST!</h2> :
         <div className='container'>
           <div  className='row mx-auto justify-content-center'>
                 <div className='col-md-12'>
