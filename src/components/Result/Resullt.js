@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './result.css'
 export default function Resullt() {
     const [localStore] = useState(JSON.parse(localStorage.getItem('answers')) || []);
