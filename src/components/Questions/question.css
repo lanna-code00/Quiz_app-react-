@@ -1,0 +1,54 @@
+.question_container{
+    /* background-color: #6B747C; */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.questions_answers button{
+    background-color: inherit;
+    border: 1px solid aqua;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.selected{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(2, 150, 24) !important;
+}
+.wrong{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(184, 6, 6) !important;
+}
+
+.questions {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.control-buttons button{
+    padding: 5px;
+}
+
+.control-buttons .submit{
+    background-color: red;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.control-buttons .previous{
+    background-color: rgb(156, 175, 233);
+    color: white;
+    border: 1px solid rgb(199, 241, 241);
+    border-radius: 5px;
+}
+
+.control-buttons .next{
+    background-color: rgb(24, 132, 2);
+    color: white;
+    border: 1px solid rgb(199, 241, 241);
+    border-radius: 5px;
+}

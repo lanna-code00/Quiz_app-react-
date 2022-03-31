@@ -1,0 +1,3 @@
+export const TEST_URL_REQUEST = "TEST_URL_REQUEST";
+export const TEST_URL_FAIL = "TEST_URL_FAIL";
+export const TEST_URL_SUCCESS = "TEST_URL_SUCCESS";
